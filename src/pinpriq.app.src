@@ -1,0 +1,13 @@
+{application, pinpriq,
+ [{description, "networked priority queue"},
+  {vsn, "0.0.0"},
+  {mod, {pinpriq_app, []}},
+  {applications,
+   [kernel,
+    stdlib]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.

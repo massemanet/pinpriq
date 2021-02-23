@@ -1,0 +1,13 @@
+%% -*- mode: erlang -*-
+[{sasl,
+  [{errlog_type, error}]},
+ {kernel,
+  [{logger_level, info},
+   {logger,
+    [{handler,
+      default,
+      logger_std_h,
+      #{}}]}]},
+ {redbug,
+  {[],
+   #{msgs=>10000, time=>60000}}}].
